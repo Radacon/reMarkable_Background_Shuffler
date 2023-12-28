@@ -1,0 +1,6 @@
+[Unit]
+Description=My Custom Task
+
+[Service]
+ExecStart=/home/root/backgrounds/changebg.sh
+
