@@ -50,7 +50,7 @@ def process_images_in_directory(text, position, font_size):
             print(f"Processed: {filename} -> {output_path}")
 
 # Example usage
-text = input("Enter the text to overlay on all images: ")  # Prompt for text to overlay
+text = input("Enter the text to overlay on all images \"\\n\" = Newline: ")  # Prompt for text to overlay
 position = (100, 100)  # X, Y coordinates for the text
 font_size = 40  # Font size
 
